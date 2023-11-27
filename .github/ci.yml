@@ -2,7 +2,8 @@ name: React Build and Deploy to Docker Hub
 
 on:
   push:
-    branches: [ "master" ]
+    branches: 
+      - master
 
 jobs:
   build:
